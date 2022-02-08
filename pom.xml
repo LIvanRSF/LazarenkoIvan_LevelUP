@@ -16,19 +16,21 @@
         <checkstyle.version>8.42</checkstyle.version>
 
         <maven-checkstyle-plugin.version>3.1.2</maven-checkstyle-plugin.version>
+        <testng.version>7.5</testng.version>
+        <slf4j-nop.version>1.7.5</slf4j-nop.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>7.5</version>
+            <version>${testng.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-nop</artifactId>
-            <version>1.7.5</version>
+            <version>${slf4j-nop.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
