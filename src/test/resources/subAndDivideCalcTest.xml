@@ -1,0 +1,11 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Sub and divide of calculator tests">
+  <test name="Sub and divide calc tests">
+    <classes>
+      <class name="testngtests.SubCalcTest"/>
+      <class name="testngtests.DivCalcTest"/>
+    </classes>
+  </test>
+</suite>

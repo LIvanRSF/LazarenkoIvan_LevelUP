@@ -1,0 +1,11 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Other functions calculator tests">
+  <test name="Other functions calc tests">
+    <classes>
+      <class name="testngtests.BoolCalcTest"/>
+      <class name="testngtests.PowSqrtCalcTest"/>
+    </classes>
+  </test>
+</suite>
